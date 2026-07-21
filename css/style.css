@@ -1321,28 +1321,20 @@ footer .credits a {
 
 }
 
-.course-card{
-
-    background:#fff;
-
-    border-radius:20px;
-
-    padding:35px;
-
-    box-shadow:0 12px 35px rgba(0,0,0,.08);
-
-    transition:.35s ease;
-
-    position:relative;
-
+.course-card {
+    background: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 20px;
+    padding: 35px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+    transition: all 0.35s ease;
+    position: relative;
+    overflow: hidden;
 }
 
-.course-card:hover{
-
-    transform:translateY(-10px);
-
-    box-shadow:0 20px 45px rgba(0,0,0,.15);
-
+.course-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.15);
 }
 
 .course-icon{
