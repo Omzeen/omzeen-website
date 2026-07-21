@@ -1282,3 +1282,25 @@ footer .credits a {
     bottom: 15px;
   }
 }
+
+.course-meta{
+    margin-top:20px;
+    text-align:left;
+}
+
+.course-meta span{
+    display:block;
+    margin-bottom:8px;
+    font-size:15px;
+    color:#555;
+}
+
+.course-meta i{
+    color:#0d6efd;
+    width:20px;
+}
+
+.service-content .btn{
+    margin-top:20px;
+    width:100%;
+}
