@@ -1477,7 +1477,9 @@ footer .credits a {
 }
 
 .service-icon{
-    width:56px;
-    height:56px;
+    width:55px;
+    height:55px;
+    display:block;
+    margin:auto;
     object-fit:contain;
 }
