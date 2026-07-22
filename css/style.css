@@ -1475,3 +1475,9 @@ footer .credits a {
         grid-template-columns:1fr;
     }
 }
+
+.service-icon{
+    width:56px;
+    height:56px;
+    object-fit:contain;
+}
