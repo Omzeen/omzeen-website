@@ -1816,28 +1816,48 @@ footer .credits a {
 
 }
 /* =======================================================
-   ARTICLE PAGE NAVIGATION
+   ARTICLES & ARTICLE PAGE NAVIGATION
+   Dark navigation on light article backgrounds
 ======================================================= */
 
-.article-page ~ * {
-  /* Keep article layout independent */
-}
-
-body:has(.article-page) #mainNav {
-  background: #ffffff;
+/* Articles listing page */
+body:has(#articles) #mainNav {
+  background: #ffffff !important;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
 }
 
-body:has(.article-page) #mainNav .navbar-brand,
-body:has(.article-page) #mainNav .nav-link {
-  color: #333333;
+/* Individual article pages */
+body:has(.article-page) #mainNav {
+  background: #ffffff !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
 }
 
+
+/* Logo */
+body:has(#articles) #mainNav .navbar-brand,
+body:has(.article-page) #mainNav .navbar-brand {
+  color: #333333 !important;
+}
+
+
+/* Navigation links */
+body:has(#articles) #mainNav .nav-link,
+body:has(.article-page) #mainNav .nav-link {
+  color: #333333 !important;
+}
+
+
+/* Hover and active */
+body:has(#articles) #mainNav .nav-link:hover,
+body:has(#articles) #mainNav .nav-link.active,
 body:has(.article-page) #mainNav .nav-link:hover,
 body:has(.article-page) #mainNav .nav-link.active {
-  color: #007bff;
+  color: #007bff !important;
 }
 
+
+/* Mobile menu button */
+body:has(#articles) #mainNav .navbar-toggler span,
 body:has(.article-page) #mainNav .navbar-toggler span {
-  background-color: #333333;
+  background-color: #333333 !important;
 }
