@@ -1815,3 +1815,29 @@ footer .credits a {
   }
 
 }
+/* =======================================================
+   ARTICLE PAGE NAVIGATION
+======================================================= */
+
+.article-page ~ * {
+  /* Keep article layout independent */
+}
+
+body:has(.article-page) #mainNav {
+  background: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+body:has(.article-page) #mainNav .navbar-brand,
+body:has(.article-page) #mainNav .nav-link {
+  color: #333333;
+}
+
+body:has(.article-page) #mainNav .nav-link:hover,
+body:has(.article-page) #mainNav .nav-link.active {
+  color: #007bff;
+}
+
+body:has(.article-page) #mainNav .navbar-toggler span {
+  background-color: #333333;
+}
